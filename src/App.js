@@ -1,9 +1,15 @@
 import React from "react";
+import { ProductosLista } from "./componentes/productos/index";
+import { Header } from "./componentes/Header";
+import "boxicons";
+
+
 
 function App() {
   return (
     <div className="App">
-     <h1>HOLA MUNDO</h1>
+     <Header/>
+     <ProductosLista />
     </div>
   );
 }

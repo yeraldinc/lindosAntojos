@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const ProductosLista = () => {
+export const paginas = () => {
   return (
     <div>
-        <h1>productos</h1>
+        <h1>paginas</h1>
     </div>
   )
 }
